@@ -1,0 +1,29 @@
+--- Interactive Big-M Simplex Solver ---
+ --------------------------------------
+Maximize or Minimize? (max/min): max
+Enter objective function coefficients separated by space (e.g., 3 5): 1 1 1
+Enter the number of constraints: 2
+
+Constraint 1:
+Enter coefficients for constraint 1 separated by space: 3 2 1
+Enter relation (<=, >=, =): <=
+Enter right-hand side (RHS) value: 3
+
+Constraint 2:
+Enter coefficients for constraint 2 separated by space: 2 1 2
+Enter relation (<=, >=, =): <=
+Enter right-hand side (RHS) value: 2
+
+--- Standard Form Formulation ---
+Maximize Z = 1.0*x1 + 1.0*x2 + 1.0*x3 - M*(Sum of Artificials)
+Subject to:
+  3.0*x1 + 2.0*x2 + 1.0*x3 + S1 = 3.0
+  2.0*x1 + 1.0*x2 + 2.0*x3 + S2 = 2.0
+  All variables >= 0
+
+--- Computational Solution ---
+Status: Optimal Solution Found
+Optimal Objective Value (Z): 1.6667
+Decision Variable x1 = 0.0000
+Decision Variable x2 = 1.3333
+Decision Variable x3 = 0.3333

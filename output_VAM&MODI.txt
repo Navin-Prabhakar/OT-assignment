@@ -1,0 +1,24 @@
+--- 1. Initial Basic Feasible Solution (VAM) ---
+-----------------------------------------------
+VAM Allocation Matrix:
+[[  0. 300.   0.   0.]
+ [250.   0. 150.   0.]
+ [  0.  50. 250. 200.]]
+Total Initial Cost: $2850.00
+
+--- 2. Optimization Phase (MODI Method) ---
+Optimal solution reached at Iteration 1.
+
+Optimal Allocation Matrix:
+[[  0. 300.   0.   0.]
+ [250.   0. 150.   0.]
+ [  0.  50. 250. 200.]]
+Minimum Total Transportation Cost: $2850.00
+
+--- Final Shipment Plan Breakdown ---
+Ship 300 units from Plant 1 to Market 2 (@ $1/unit)
+Ship 250 units from Plant 2 to Market 1 (@ $2/unit)
+Ship 150 units from Plant 2 to Market 3 (@ $5/unit)
+Ship 50 units from Plant 3 to Market 2 (@ $3/unit)
+Ship 250 units from Plant 3 to Market 3 (@ $3/unit)
+Ship 200 units from Plant 3 to Market 4 (@ $2/unit)
